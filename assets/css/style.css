@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser*/
-*{
+* {
     padding:0 ;
     margin:0;
     box-sizing: border-box;
 }
 /* General style*/
-body{
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -18,7 +18,7 @@ body{
 }
 
 /* Header*/
-header{
+header {
     background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
@@ -27,19 +27,28 @@ header{
     /* adding shadow box there are two type hard and soft shadow*/
     box-shadow: 0 2PX 2PX #3a3a3a;
 }
-    
+ 
+header a {
+          text-decoration: none;
+         color:  inherit;
+}
 
-h1{
-    font-family: 'Oswald', sans-serif ;
+
+h1 { 
+   font-family: 'Oswald', sans-serif ;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   color: #252525;
+
 }
 /* Main content */
-main{
-    background-color: lightblue;
-    /* make main element take up any surplus space to push the footer down*/
-    flex: 10 auto;
+main {
+     background-color: lightblue;
+     /* make main element take up any surplus space to push the footer down*/
+     flex: 10 auto;
 }
 
 /*Footer*/
-footer{
-    background-color: orange;
+footer {
+        background-color: orange;
 }
