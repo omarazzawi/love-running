@@ -55,6 +55,21 @@ h1 {
     border-bottom: 1px solid #3a3a3a ;
 }
 
+/* Navbar style with drowpdown toggle */
+
+nav{
+    position:absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2PX 2PX #3a3a3a;
+    /* we put the display : none so the nav bar stay hidden*/
+    display: none;
+
+}
+
+
 /* Main content */
 
 main {
