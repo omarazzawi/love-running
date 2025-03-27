@@ -86,13 +86,22 @@ nav{
 
 /* Main content */
 
-main {
-     background-color: lightblue;
+main {   
      /* make main element take up any surplus space to push the footer down*/
      flex: 1 0 auto;
      margin-top: 47px;
 }
+/* Hero section */
 
+#hero {
+    height: 600px;
+    width: 100%;
+    /*We want to make sure the image does not repeat. We also want it to be centred both horizontally and vertically,
+    so we need to type centre twice.
+    we want it to automatically size itself so
+    it covers the entirehero section without distorting.*/
+    background: url("../images/hero-image.webp") no-repeat center  center/cover;
+}
 
 
 /*Footer*/
