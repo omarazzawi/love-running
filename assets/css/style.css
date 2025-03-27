@@ -25,7 +25,7 @@ header {
     z-index: 99;
     width: 100%;
     /* adding shadow box there are two type hard and soft shadow*/
-    box-shadow: 0 2PX 2PX #3a3a3a;
+    box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content:space-between ;
     align-items: baseline;
@@ -66,7 +66,7 @@ nav{
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2PX 2PX #3a3a3a;
+    box-shadow: 0 2px 2px #3a3a3a;
     /* we put the display : none so the nav bar stay hidden*/
     display: none;
     top: 100%;
@@ -89,7 +89,7 @@ nav{
 main {
      background-color: lightblue;
      /* make main element take up any surplus space to push the footer down*/
-     flex: 10 auto;
+     flex: 1 0 auto;
      margin-top: 47px;
 }
 
@@ -120,5 +120,14 @@ footer {
     .nav-toggle-label {
         display: none;
     }
-
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+    /* main content*/
+    main {
+        /* push main content down to accomodate larger header */
+        margin-top: 79px;
+    }
 }
