@@ -124,6 +124,47 @@ added alpha value to set the opacity (semi-transparent).*/
     color: #ffffff;
 }
 
+/* Adding the Reasons section */
+
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+    
+    
+}
+
+
+#reasons h2 {
+    font-size: 280%;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+#benefits-physical > div , #benefits-mental > div  {
+    line-height: 20px;
+    margin-bottom: 20px;
+    
+
+}
+
+#benefits {
+    padding: 0 20px;
+    
+}
+
+#benefits hr{
+    border-bottom: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+/* I add this to look better*/
+
+p {
+    text-align: justify;
+}
+
+
+
 /*Footer*/
 #social-networks {
     text-align: center;
