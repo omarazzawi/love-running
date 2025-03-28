@@ -17,6 +17,16 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+h1,h2,h3 { 
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+ 
+ }
+
+
+
 /* Header*/
 header {
     background-color: #ffffff;
@@ -36,14 +46,6 @@ header a {
          color: inherit;
 }
 
-
-h1 { 
-   font-family: 'Oswald', sans-serif;
-   text-transform: uppercase;
-   letter-spacing: 2px;
-   color: #252525;
-
-}
 
 #menu {
     font-size: 110%;
@@ -101,8 +103,26 @@ main {
     we want it to automatically size itself so
     it covers the entirehero section without distorting.*/
     background: url("../images/hero-image.webp") no-repeat center  center/cover;
+    position: relative;
 }
 
+/* Useing an rgba value here, which is similar to an rgb value, but with an
+added alpha value to set the opacity (semi-transparent).*/
+
+#cover-text {
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#cover-text > h2, #cover-text >h3 {
+    color: #ffffff;
+}
 
 /*Footer*/
 #social-networks {
@@ -150,6 +170,12 @@ main {
     main {
         /* push main content down to accomodate larger header */
         margin-top: 79px;
+    }
+
+    /* Hero text will be lager here to fit better with larg screen*/
+    #cover-text {
+        width: 300px;
+        right: 50px;
     }
 }
 
