@@ -250,6 +250,18 @@ p {
 
 }
 
+
+/* media query: large or landscape  ( 576px and up) */
+@media screen and (min-width: 576px) {
+    
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+
+}
+
+
 /* media query: tables and larger ( 768 px and up) */
 @media screen and (min-width: 768px) {
     
@@ -301,14 +313,27 @@ p {
         text-align: end;
         align-self: flex-end;
     }
+
+           /* Gallary */
+        
+    #photos {
+            column-count: 3;
+    }
 }
+
+
 /* media query: Laptop and larger ( 992px and up) */
 @media screen and (min-width: 992px) {
     
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
+
+        /* Gallary */
     }
-              
+    #photos {
+        column-count: 4;
+    }
+                 
 }
 
 
