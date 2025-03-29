@@ -25,6 +25,9 @@ h1,h2,h3 {
  
  }
 
+.hidden-heading {
+    display: none;
+}
 
 
 /* Header*/
@@ -173,7 +176,6 @@ p {
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
-    
 }
 
 #benefits-image {
@@ -193,9 +195,6 @@ p {
     display: flex;
     flex-wrap: wrap;
 }
-
-
-
 
 #times div {
     text-align: center;
