@@ -221,6 +221,18 @@ p {
     text-align: center;
 }
 
+/* Gallary Page */
+ #photos img {
+    /* we add the width 100% to control the overflow */
+    width: 100%;
+    /* To make thetext uder the ohoto readable */
+    line-height: 1em;
+ }
+#photos {
+    /* To remove the white line between the photo we use line-height */
+    line-height: 0;
+ }
+
 /*Footer*/
 #social-networks {
     text-align: center;
